@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> WEB TEST </title>
+  </head>
+  <body bgcolor="black">
+  
+  	
+  	<div style="position: absolute; left: 40%; top: 40%;">
+	<h1 style="color:red" id="C"> WEB TEST </h1>
+	<br>
+	<button style="color:red" onclick="clicks()"> CLICK! </button>
+	</div>
+	
+	<script>
+		var x=0;
+		function clicks(){
+			document.getElementById("C").innerHTML = x;
+			x++;
+		}
+	
+	</script>
+  </body>
+</html>
